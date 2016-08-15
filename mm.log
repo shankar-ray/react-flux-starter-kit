@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:ns0="urn:partner.soap.sforce.com" xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="urn:partner.soap.sforce.com" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header>
+      <tns:SessionHeader>
+         <tns:sessionId>00D2800000169S6!AQwAQFDX3HB_qaf5i.BZIVdH4MHuc9NWbI42lnw1oygVRej5O.0dk6B.JFOfE7EJdkaGNH4DmnYgBairCNLdVik9FTzeRInT</tns:sessionId>
+      </tns:SessionHeader>
+   </SOAP-ENV:Header>
+   <ns1:Body>
+      <ns0:getUserInfo/>
+   </ns1:Body>
+</SOAP-ENV:Envelope>
+[MAVENSMATE CAUGHT ERROR]
+Traceback (most recent call last):
+  File "/home/travis/build/joeferraro/mm/build/mm/out00-PYZ.pyz/mm.commands.metadata", line 387, in execute
+UnboundLocalError: local variable 'tmp' referenced before assignment
